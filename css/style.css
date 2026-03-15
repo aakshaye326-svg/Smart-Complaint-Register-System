@@ -57,7 +57,7 @@ border-radius:5px;
 
 .sidebar a:hover{
 
-background:#0d6efd;
+background:#aecefd;
 
 }
 
@@ -93,7 +93,7 @@ align-items:center;
 
 padding:5px 10px;
 border-radius:20px;
-border:1px solid gray;
+border:1px solid rgb(0, 0, 0);
 
 }
 
@@ -148,7 +148,7 @@ align-items:center;
 
 .login-card{
 
-background:white;
+background:rgb(255, 255, 255);
 
 padding:40px;
 
@@ -232,4 +232,22 @@ border-radius:20px;
 
 padding:8px 18px;
 
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:
+linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("../images/home.jpg.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+color:white;
+text-align:center;
 }
